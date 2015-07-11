@@ -1,6 +1,6 @@
 function startGame(){
     
-     var x=45;
+     var x=0;
   
     var resetGame=function(){
         player1.maxCP=50;
