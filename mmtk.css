@@ -38,10 +38,16 @@ a:link{
     margin-left:auto;
     margin-right:auto;
 }
+.wrapper{
+    text-align:center;
+}
 #startButton{
     position:relative;
     top:-180px;
-    left:540px;
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    /*left:540px;*/
 }
 #gameText{
     font-family:Courier;
