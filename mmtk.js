@@ -1466,7 +1466,7 @@ function startGame(){
     erika.saying3="Would you like to learn how to use "+'<b>'+"ITEMS"+'</b>'+"?";
     erika.response1="COOKING POINTS (CP) determine how much cooking power you have left for cook-offs. When they run out, you will lose motivation and require a nap meaning you can no longer cook and lose. Special ITEMS can be used to restore them. EATING ABILITY (EA) determines how much of your opponent's cooking you can stomach before it starts to get to you and affects your CP. PROTEIN determines how strong your cooking is.";
     erika.response2="As you compete in COOK-OFFS you gain EXPERIENCE POINTS (XP). Every 100 XP ups your skill 1 LEVEL and yields increases to your MAX CP, PROTEIN, and EA.";
-    erika.response3="Items are received after talking to the COOKING MASTERS or defeating opponents in COOK-OFFS. At any time, you can hit the 'I' key and bring up your ITEM MENU in the lower right.";
+    erika.response3="Items are received after talking to COOKING MASTERS or purchased at stores. At any time, you can hit the 'I' key to bring up your ITEM MENU in the lower right.";
     erika.giveItem=function(){
         soyMilk.addToMenu();
         
