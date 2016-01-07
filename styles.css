@@ -2,3 +2,7 @@ ul {
   list-style: none; }
   ul a {
     text-decoration: none; }
+  ul img {
+    border-radius: 100%;
+    width: 80%;
+    text-align: center; }
