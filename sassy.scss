@@ -3,9 +3,16 @@ ul{
   a{
     text-decoration: none;
   }
+  li{
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 200px;
+  }
   img{
-    border-radius: 100%;
-    width: 80%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 100%;
     text-align: center;
+    margin-top: 15px;
   }
 }
