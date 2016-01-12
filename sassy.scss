@@ -1,18 +1,16 @@
-ul{
-  list-style: none;
-  a{
-    text-decoration: none;
-  }
-  li{
-    border: 1px solid gray;
-    border-radius: 3px;
-    height: 200px;
-  }
+
+.projRow{
+  border: 1px solid gray;
+  border-radius: 3px;
+  height: 200px;
   img{
     border-radius: 5px;
     border: 1px solid gray;
-    width: 100%;
+    width: 90%;
     text-align: center;
     margin-top: 15px;
+  }
+  a{
+    text-decoration: none;
   }
 }
