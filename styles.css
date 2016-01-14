@@ -69,13 +69,14 @@ footer {
       color: red; }
 
 .btn-back {
-  background-color: #6d8165;
+  background-color: #e0cfb5;
   color: white; }
 
 #examples h1 {
   text-align: left;
-  padding-bottom: 20px;
-  margin-bottom: 0; }
+  padding-bottom: 60px;
+  margin-bottom: 0;
+  padding-top: 40px; }
 
 #examples h2 {
   color: #564032; }
