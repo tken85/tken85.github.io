@@ -28,7 +28,7 @@
       </a>
     </div>
     <div class="selectMode">
-      <a href ="index.html" class="btn btn-success">Normal Mode</a>
+      <a href ="index.html" class="btn btn-back">Normal Mode</a>
       <a href="#" class="btn btn-danger">Hard Mode</a>
     </div>
     </header>
@@ -57,20 +57,20 @@ javaScriptRules = false;
     <div id="about" class="row hidden">
       <div class="container">
       <div class="col-xs-6 aboutCol">
-        <h3>About Me</h3>
-        <p>Originally hailing from New Orleans, I now find myself in Charleston after brief interludes in Los Angles and Houston. No matter where I have been, I have always had a love for coding whether it was for analyzing lab data, building my research group's website, or making fun RPG games on the side.</p>
-        <p>Now, I have decided to take a new approach to life and have brough programming to the forefront. I am excited to have embarked on the neverending journey of learning that comes with coding, and I can't wait to share that knowledge and hard work with you.</p>
-        <p>When my face isn't buried deep in code on my Mac, I can likely be found in the kitchen making some of my crafty confectionary crafts or enjoying some sweet downtime relaxing on my PS4.</p>
+        <h3 class="headerText">About Me</h3>
+        <p class="mainBrownText">Originally hailing from New Orleans, I now find myself in Charleston after brief interludes in Los Angles and Houston. No matter where I have been, I have always had a love for coding whether it was for analyzing lab data, building my research group's website, or making fun RPG games on the side.</p>
+        <p class="mainBrownText">Now, I have decided to take a new approach to life and have brough programming to the forefront. I am excited to have embarked on the neverending journey of learning that comes with coding, and I can't wait to share that knowledge and hard work with you.</p>
+        <p class="mainBrownText">When my face isn't buried deep in code on my Mac, I can likely be found in the kitchen making some of my crafty confectionary crafts or enjoying some sweet downtime relaxing on my PS4.</p>
       </div>
       <div class="col-xs-6 aboutCol">
-        <h3>Education</h3>
-        <ul>
+        <h3 class="headerText">Education</h3>
+        <ul class="mainBrownText">
           <li>Studied Front-End Engineering at The Iron Yard</li>
           <li>M.S. in Physical Chemistry from UCLA</li>
           <li>B.S. in Chemistry from Rice University</li>
         </ul>
-        <h3>Skills</h3>
-        <ul>
+        <h3 class="headerText">Skills</h3>
+        <ul class="mainBrownText">
           <li>JavaScript</li>
           <li>AngularJS</li>
           <li>Backbone.js</li>
@@ -79,14 +79,18 @@ javaScriptRules = false;
           <li>Sass</li>
           <li>Twitter Bootstrap</li>
         </ul>
-        <a href="resume.pdf" target="_blank" class="btn btn-primary resumeBtn">Download My Resume</a>
+        <a href="resume.pdf" target="_blank" class="btn btn-back resumeBtn">Download My Resume</a>
     </div>
   </div>
-
 </div>
+
       <div id="examples" class="hidden">
-        <h1>My Projects</h1>
-        <div class="row projRow">
+        <div class="darkBack">
+          <div class="container">
+            <h1>My Projects</h1>
+          </div>
+        </div>
+        <div class="row projRow darkText">
             <div class="col-xs-4">
               <a href="http://tken85.github.io/constructor_game" target="_blank"><img src="images/wiffleball.png"></a>
             </div>
@@ -103,7 +107,7 @@ javaScriptRules = false;
               </div>
             </div>
           </div>
-          <div class="row projRow">
+          <div class="row projRow darkBack">
             <div class="col-xs-4">
               <a href="http://tken85.github.io/instaBackbone" target="_blank"><img src="images/instabam.png"></a>
             </div>
@@ -120,7 +124,7 @@ javaScriptRules = false;
               </div>
             </div>
           </div>
-          <div class="row projRow">
+          <div class="row projRow darkText">
             <div class="col-xs-4">
               <a href="http://tken85.github.io/github-recreation/" target="_blank"><img src="images/github.png"></a>
             </div>
@@ -137,7 +141,7 @@ javaScriptRules = false;
               </div>
             </div>
           </div>
-          <div class="row projRow">
+          <div class="row projRow darkBack">
             <div class="col-xs-4">
               <a href="http://pitchmaster3000.herokuapp.com/#/pitches" target="_blank"><img src="images/pitchmaster.png"></a>
             </div>
@@ -154,7 +158,7 @@ javaScriptRules = false;
               </div>
             </div>
           </div>
-          <div class="row projRow lastProj">
+          <div class="row projRow lastProj darkText">
             <div class="col-xs-4">
               <a href="http://codechampions.org/#/" target="_blank"><img src="images/codeChampions.png"></a>
             </div>
@@ -172,6 +176,7 @@ javaScriptRules = false;
             </div>
           </div>
       </div>
+      <!-- <iframe src="http://codechampions.org/#/game22" width="800px"></iframe> -->
       <footer class="hidden">
         <div class="icons">
           <a href="https://github.com/tken85" target="_blank" class="btn btn-social-icon btn-github">
@@ -188,9 +193,10 @@ javaScriptRules = false;
           </a>
         </div>
         <h1>Terry Kennair</h1>
-        <h2><a href="mailto:tkennair85@gmail.com?Subject=Your%20Profile" target="_top">tkennair85@gmail.com</a></h2>
-        <h2><a href="tel:310-592-7941" target="_top">310 592 7941</a></h2>
+        <h3><a href="mailto:tkennair85@gmail.com?Subject=Your%20Profile" target="_top">tkennair85@gmail.com</a></h3>
+        <h3><a href="tel:310-592-7941" target="_top">310 592 7941</a></h3>
       </footer>
+
     <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.js" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

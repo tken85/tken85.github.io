@@ -8,7 +8,8 @@
   background-color: #937a66; }
 
 .darkBack {
-  background-color: #937a66; }
+  background-color: #937a66;
+  color: white; }
 
 body {
   font-family: 'Ubuntu', sans-serif; }
@@ -56,9 +57,6 @@ header {
 .selectMode {
   text-align: center; }
 
-.whiteText {
-  color: white; }
-
 footer {
   text-align: center;
   background-image: url("images/maccoffee2.jpeg");
@@ -74,6 +72,9 @@ footer {
 .btn-back {
   background-color: #937a66;
   color: white; }
+  .btn-back:hover {
+    background-color: #564032;
+    color: white; }
 
 #examples h1 {
   text-align: left;

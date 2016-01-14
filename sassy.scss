@@ -16,6 +16,7 @@ $headerText: #564032;
 }
 .darkBack{
   background-color: $darkBack;
+  color: white;
 }
 body{
   font-family: 'Ubuntu', sans-serif;
@@ -75,9 +76,7 @@ header{
 .selectMode{
   text-align: center;
 }
-.whiteText{
-  color: white;
-}
+
 footer{
   text-align: center;
   background-image: url('images/maccoffee2.jpeg');
@@ -100,6 +99,10 @@ footer{
 .btn-back{
   background-color: $darkBack;
   color: white;
+  &:hover{
+    background-color: $headerText;
+    color:white;
+  }
 }
 #examples{
   h1{

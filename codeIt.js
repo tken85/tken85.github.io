@@ -39,6 +39,8 @@
         eval(myCode);
         if (!wantToWorkWith) throw "You still don't want to work with me even after I made you enter code?";
         if (!javaScriptRules) throw "What!! You don't love JavaScript?!!? Try again!";
+        if (!projects) throw "You seem to not want to see my projects. Try again!";
+        if (!about) throw "Are you not interested in learning about me?";
         $('#codeSuccess').removeClass('hidden');
         if (projects && about){
           showFooter();
