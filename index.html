@@ -5,25 +5,62 @@
     <title>Terry Kennair</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <div class="container">
-      <h1>Terry Kennair</h1>
-      <button class="btn btn-success" data-toggle="collapse" data-target="#examples">My Work</button>
-      <a href="https://github.com/tken85" class="btn btn-primary btn-social-icon btn-github">
+    <header>
+
+      <h1 id="name">Terry Kennair</h1>
+      <h2>Front End Engineer</h2>
+      <!-- <button class="btn btn-success" data-toggle="collapse" data-target="#examples">My Work</button> -->
+    <div class="icons">
+      <a href="https://github.com/tken85" class="btn btn-social-icon btn-github">
         <span class="fa fa-github"></span>
       </a>
-      <a href="https://www.linkedin.com/in/tkennair" class="btn btn-primary btn-social-icon btn-linkedin">
+      <a href="https://www.linkedin.com/in/tkennair" class="btn btn-social-icon btn-linkedin">
         <span class="fa fa-linkedin"></span>
       </a>
-      <a href="mailto:tkennair85@gmail.com?Subject=Your%20Profile" target="_top" class="btn btn-primary btn-social-icon btn-linkedin">
+      <a href="mailto:tkennair85@gmail.com?Subject=Your%20Profile" target="_top" class="btn btn-social-icon btn-envelope">
         <span class="glyphicon glyphicon-envelope"></span>
       </a>
-      <a href="tel:310-592-7941" target="_top" class="btn btn-primary btn-social-icon btn-linkedin">
+      <a href="tel:310-592-7941" target="_top" class="btn btn-social-icon btn-phone">
         <span class="glyphicon glyphicon-phone"></span>
       </a>
-      <div id="examples" class="collapse">
+    </div>
+    </header>
+    <div id="about" class="row">
+      <div class="container">
+      <div class="col-xs-6 aboutCol">
+        <h3>About Me</h3>
+        <p>Originally hailing from New Orleans, I now find myself in Charleston after brief interludes in Los Angles and Houston. No matter where I have been, I have always had a love for coding whether it was for analyzing lab data, building my research group's website, or making fun RPG games on the side.</p>
+        <p>Now, I have decided to take a new approach to life and have brough programming to the forefront. I am excited to have embarked on the neverending journey of learning that comes with coding, and I can't wait to share that knowledge and hard work with you.</p>
+        <p>When my face isn't buried deep in code on my Mac, I can likely be found in the kitchen making some of my crafty confectionary crafts or enjoying some sweet downtime relaxing on my PS4.</p>
+      </div>
+      <div class="col-xs-6 aboutCol">
+        <h3>Education</h3>
+        <ul>
+          <li>Studied Front-End Engineering at The Iron Yard</li>
+          <li>M.S. from UCLA</li>
+          <li>B.S. from Rice University</li>
+        </ul>
+        <h3>Skills</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>AngularJS</li>
+          <li>Backbone.js</li>
+          <li>Node.js</li>
+          <li>HTML</li>
+          <li>Sass</li>
+          <li>Twitter Bootstrap</li>
+        </ul>
+        <a href="resume.pdf" class="btn btn-primary resumeBtn">Download My Resume</a>
+    </div>
+  </div>
+
+</div>
+      <div id="examples">
+        <h1>My Projects</h1>
         <div class="row projRow">
             <div class="col-xs-4">
               <img src="images/wiffleball.png">
@@ -127,8 +164,29 @@
             </div>
           </div>
       </div>
-    </div>
+      <!-- <iframe src="http://codechampions.org/#/game22" width="800px"></iframe> -->
+      <footer>
+        <div class="icons">
+          <a href="https://github.com/tken85" class="btn btn-social-icon btn-github">
+            <span class="fa fa-github"></span>
+          </a>
+          <a href="https://www.linkedin.com/in/tkennair" class="btn btn-social-icon btn-linkedin">
+            <span class="fa fa-linkedin"></span>
+          </a>
+          <a href="mailto:tkennair85@gmail.com?Subject=Your%20Profile" target="_top" class="btn btn-social-icon btn-envelope">
+            <span class="glyphicon glyphicon-envelope"></span>
+          </a>
+          <a href="tel:310-592-7941" target="_top" class="btn btn-social-icon btn-phone">
+            <span class="glyphicon glyphicon-phone"></span>
+          </a>
+        </div>
+        <h1>Terry Kennair</h1>
+        <h2>tkennair85@gmail.com</h2>
+        <h2>310 592 7941</h2>
+      </footer>
+
     <script src="https://code.jquery.com/jquery-2.2.0.js" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

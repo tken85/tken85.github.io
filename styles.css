@@ -1,7 +1,8 @@
 .projRow {
-  border: 1px solid gray;
-  border-radius: 3px;
-  height: 200px;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  width: 95%;
+  margin: 0 auto;
   overflow-y: scroll; }
   .projRow img {
     border-radius: 5px;
@@ -11,3 +12,48 @@
     margin-top: 15px; }
   .projRow a {
     text-decoration: none; }
+
+.btn-social-icon {
+  padding: 6px 2px;
+  vertical-align: middle;
+  font-size: 20px;
+  color: white; }
+  .btn-social-icon:hover {
+    color: red; }
+
+header {
+  background-image: url("images/coffee.jpeg");
+  background-size: cover;
+  height: 300px;
+  color: white; }
+  header h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-top: 5px; }
+  header h2 {
+    text-align: center; }
+
+.icons {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto; }
+
+footer {
+  text-align: center;
+  background-image: url("images/maccoffee2.jpeg");
+  background-size: cover;
+  height: 300px;
+  color: white; }
+
+#about {
+  border-bottom: 1px solid gray; }
+
+#examples h1 {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px; }
+
+.resumeBtn {
+  margin-left: 20px;
+  margin-bottom: 10px; }
