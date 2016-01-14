@@ -75,6 +75,9 @@ header{
 .selectMode{
   text-align: center;
 }
+.whiteText{
+  color: white;
+}
 footer{
   text-align: center;
   background-image: url('images/maccoffee2.jpeg');
@@ -105,6 +108,10 @@ footer{
     margin-bottom: 0;
     padding-top:40px;
   }
+
+}
+
+.darkText{
   h2{
     color: $headerText;
   }

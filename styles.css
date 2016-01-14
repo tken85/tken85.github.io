@@ -56,6 +56,9 @@ header {
 .selectMode {
   text-align: center; }
 
+.whiteText {
+  color: white; }
+
 footer {
   text-align: center;
   background-image: url("images/maccoffee2.jpeg");
@@ -78,10 +81,10 @@ footer {
   margin-bottom: 0;
   padding-top: 40px; }
 
-#examples h2 {
+.darkText h2 {
   color: #564032; }
 
-#examples p {
+.darkText p {
   color: #3d3327; }
 
 .resumeBtn {
