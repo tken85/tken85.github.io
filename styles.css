@@ -69,6 +69,10 @@ footer {
     footer a:hover {
       color: red; }
 
+#about {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
 .btn-back {
   background-color: #937a66;
   color: white; }
