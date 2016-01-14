@@ -1,5 +1,5 @@
 body{
-  font-family: 'Ubuntu' sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 .projRow{
   border-bottom: 1px solid gray;
@@ -26,6 +26,9 @@ body{
   color: white;
   &:hover{
     color: red;
+  }
+  &:visited{
+    color: white;
   }
 }
 
@@ -99,4 +102,8 @@ footer{
 
 .lastProj{
   border-bottom: none;
+}
+
+#run{
+  margin-top:5px;
 }

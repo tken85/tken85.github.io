@@ -1,5 +1,5 @@
 body {
-  font-family: 'Ubuntu' sans-serif; }
+  font-family: 'Ubuntu', sans-serif; }
 
 .projRow {
   border-bottom: 1px solid gray;
@@ -23,6 +23,8 @@ body {
   color: white; }
   .btn-social-icon:hover {
     color: red; }
+  .btn-social-icon:visited {
+    color: white; }
 
 header {
   background-image: url("images/coffee.jpeg");
@@ -81,3 +83,6 @@ footer {
 
 .lastProj {
   border-bottom: none; }
+
+#run {
+  margin-top: 5px; }
