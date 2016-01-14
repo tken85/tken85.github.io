@@ -48,6 +48,11 @@ footer {
   background-size: cover;
   height: 300px;
   color: white; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+    footer a:hover {
+      color: red; }
 
 #about {
   border-bottom: 1px solid gray; }

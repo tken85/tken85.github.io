@@ -8,19 +8,19 @@
     editor.getSession().setMode("ace/mode/javascript");
 
     var javaScriptRules = false;
-    var wantToHire = false;
+    var wantToWorkWith = false;
     var projects = false;
     var about = false;
 
     var showAbout = function(){
-      if(javaScriptRules && wantToHire){
+      if(javaScriptRules && wantToWorkWith){
         $('#about').removeClass('hidden');
         about = true;
       }
     };
 
     var showProjects = function(){
-      if(javaScriptRules && wantToHire){
+      if(javaScriptRules && wantToWorkWith){
         $('#examples').removeClass('hidden');
         projects = true;
       }
@@ -37,7 +37,7 @@
       var myCode=editor.getValue();
       try{
         eval(myCode);
-        if (!wantToHire) throw "You still don't want to hire me even after I made you enter code?";
+        if (!wantToWorkWith) throw "You still don't want to work with me even after I made you enter code?";
         if (!javaScriptRules) throw "What!! You don't love JavaScript?!!? Try again!";
         $('#codeSuccess').removeClass('hidden');
         if (projects && about){

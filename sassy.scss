@@ -57,6 +57,13 @@ footer{
   background-size: cover;
   height: 300px;
   color: white;
+  a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color: red;
+    }
+  }
 }
 
 #about{
