@@ -38,7 +38,7 @@ body {
 header {
   background-image: url("images/coffee.jpeg");
   background-size: cover;
-  height: 300px;
+  height: 350px;
   color: white; }
   header h1 {
     text-align: center;
@@ -63,7 +63,7 @@ footer {
   text-align: center;
   background-image: url("images/maccoffee2.jpeg");
   background-size: cover;
-  height: 300px;
+  height: 350px;
   color: white; }
   footer a {
     text-decoration: none;
@@ -72,7 +72,7 @@ footer {
       color: red; }
 
 .btn-back {
-  background-color: #e0cfb5;
+  background-color: #937a66;
   color: white; }
 
 #examples h1 {

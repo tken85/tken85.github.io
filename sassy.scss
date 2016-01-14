@@ -54,7 +54,7 @@ body{
 header{
   background-image: url('images/coffee.jpeg');
   background-size: cover;
-  height: 300px;
+  height: 350px;
   color: white;
 
   h1{
@@ -82,7 +82,7 @@ footer{
   text-align: center;
   background-image: url('images/maccoffee2.jpeg');
   background-size: cover;
-  height: 300px;
+  height: 350px;
   color: white;
   a{
     text-decoration: none;
@@ -98,7 +98,7 @@ footer{
 }
 
 .btn-back{
-  background-color: $lightBack;
+  background-color: $darkBack;
   color: white;
 }
 #examples{
