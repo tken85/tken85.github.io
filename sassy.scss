@@ -11,25 +11,25 @@ $headerText: #564032;
 .mainText{
   color: $mainBrownText;
 }
-.lightBack{
-  background-color: $darkBack;
-}
+
 .darkBack{
   background-color: $darkBack;
   color: white;
+  a{
+    color: $headerText;
+  }
 }
+
 body{
   font-family: 'Ubuntu', sans-serif;
 }
 .projRow{
 
   padding: 5%;
-  // width: 95%;
-  // margin: 0 auto;
   overflow-y: scroll;
   img{
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid $headerText;
     width: 90%;
     text-align: center;
     margin-top: 15px;
@@ -48,7 +48,7 @@ body{
     color: red;
   }
   &:visited{
-    color: white;
+    color: inherit;
   }
 }
 
@@ -62,7 +62,7 @@ header{
     text-align: center;
     margin-top: 0;
     margin-bottom: 5px;
-    padding-top: 5px;
+    padding-top: 5%;
   }
   h2{
     text-align: center;

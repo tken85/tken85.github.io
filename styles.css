@@ -4,12 +4,11 @@
 .mainText {
   color: #3d3327; }
 
-.lightBack {
-  background-color: #937a66; }
-
 .darkBack {
   background-color: #937a66;
   color: white; }
+  .darkBack a {
+    color: #564032; }
 
 body {
   font-family: 'Ubuntu', sans-serif; }
@@ -19,7 +18,7 @@ body {
   overflow-y: scroll; }
   .projRow img {
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid #564032;
     width: 90%;
     text-align: center;
     margin-top: 15px; }
@@ -34,7 +33,7 @@ body {
   .btn-social-icon:hover {
     color: red; }
   .btn-social-icon:visited {
-    color: white; }
+    color: inherit; }
 
 header {
   background-image: url("images/coffee.jpeg");
@@ -45,7 +44,7 @@ header {
     text-align: center;
     margin-top: 0;
     margin-bottom: 5px;
-    padding-top: 5px; }
+    padding-top: 5%; }
   header h2 {
     text-align: center; }
 
