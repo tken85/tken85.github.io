@@ -76,9 +76,9 @@ footer {
   color: white; }
 
 #examples h1 {
-  text-align: center;
-  border-bottom: 1px solid gray;
-  padding-bottom: 20px; }
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 0; }
 
 #examples h2 {
   color: #564032; }

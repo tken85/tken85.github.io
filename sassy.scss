@@ -100,9 +100,9 @@ footer{
 }
 #examples{
   h1{
-    text-align: center;
-    border-bottom: 1px solid gray;
+    text-align: left;
     padding-bottom: 20px;
+    margin-bottom: 0;
   }
   h2{
     color: $headerText;
