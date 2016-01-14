@@ -27,12 +27,34 @@
         <span class="glyphicon glyphicon-phone"></span>
       </a>
     </div>
-      <div class="selectMode">
-        <a href ="#" class="btn btn-success">Normal Mode</a>
-        <a href="codeIt.html" class="btn btn-danger">Hard Mode</a>
-      </div>
+    <div class="selectMode">
+      <a href ="index.html" class="btn btn-success">Normal Mode</a>
+      <a href="#" class="btn btn-danger">Hard Mode</a>
+    </div>
     </header>
-    <div id="about" class="row">
+    <div id="codeRow" class="row">
+      <div class="container">
+        <div class="col-xs-6">
+          <p>Congrats on choosing Hard Mode!</p>
+          <p>If you want to unlock the secrets of my portfolio, you're going to have to put your knowledge of JavaScript to the test!</p>
+          <p>You will have to utilize the functions <strong>showAbout()</strong> and <strong>showProjects()</strong>, to see my info, but before calling the functions, you will need to edit the code above to be true statements. Once that's done, just call <strong>showProjects()</strong> and <strong>showAbout()</strong>.</p>
+          <div id="error" class="alert alert-danger hidden" role="alert">
+          </div>
+          <div id="codeSuccess" class="alert alert-success hidden" role="alert">
+            <span class="glyphicon glyphicon-star"></span>Well Done! I hope you enjoyed it!
+          </div>
+        </div>
+          <div class="col-xs-6">
+          <div id="editor" class="edCol">//edit using JavaScript
+wantToHire = false;
+javaScriptRules = false;
+//Put your code below
+          </div>
+          <button id="run" class="btn btn-primary">Run!</button>
+        </div>
+      </div>
+    </div>
+    <div id="about" class="row hidden">
       <div class="container">
       <div class="col-xs-6 aboutCol">
         <h3>About Me</h3>
@@ -62,7 +84,7 @@
   </div>
 
 </div>
-      <div id="examples">
+      <div id="examples" class="hidden">
         <h1>My Projects</h1>
         <div class="row projRow">
             <div class="col-xs-4">
@@ -150,8 +172,7 @@
             </div>
           </div>
       </div>
-      <!-- <iframe src="http://codechampions.org/#/game22" width="800px"></iframe> -->
-      <footer>
+      <footer class="hidden">
         <div class="icons">
           <a href="https://github.com/tken85" class="btn btn-social-icon btn-github">
             <span class="fa fa-github"></span>
@@ -170,9 +191,9 @@
         <h2>tkennair85@gmail.com</h2>
         <h2>310 592 7941</h2>
       </footer>
-
+    <script src="src/ace.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.js" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="main.js" charset="utf-8"></script>
+    <script src="codeIt.js" charset="utf-8"></script>
   </body>
 </html>
